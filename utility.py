@@ -13,17 +13,7 @@ BASE_DIR = './example_tiny_data/'
 #BASE_DIR = './down_sample/'
 
 def get_business():
-    file_dir = os.path.join(BASE_DIR, 'business.json')
-    with open(file_dir, 'r') as f:
-        data = []
-        for line in f:
-            row = json.loads(line)
-            # Initialize
-            to_go = wifi = ambience = parking = price_range = hours = None
-            # Handle attributes here
-            # Get following attributes if they exists
-            # Coerce them into bool and str for now
-            if row['attributes']:
+    
                 if "RestaurantsTakeOut" in row['attributes']:
                     to_go = bool(row['attributes']['RestaurantsTakeOut'])
                 if "WiFi" in row['attributes']:
