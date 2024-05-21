@@ -40,20 +40,7 @@ DATABASEURI = "postgresql://postgres:amaurylovesalex@127.0.0.1"
 engine = create_engine(DATABASEURI)
 
 # Tabulates data using database.py and utility.py
-db.create_schema()
-business_data = util.get_business()
-db.tabulate_business(business_data)
-yelp_user_data = util.get_yelp_user()
-db.tabulate_yelp_user(yelp_user_data)
-reviews_data = util.get_reviews()
-db.tabulate_reviews(reviews_data)
-tips_data = util.get_tips()
-db.tabulate_tips(tips_data)
-checkins_data = util.get_checkins()
-db.tabulate_checkins(checkins_data)
-media_data = util.get_media()
-db.tabulate_media(media_data)
-db.tabulate_friends()
+
 
 @app.before_request
 def before_request():
