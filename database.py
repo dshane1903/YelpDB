@@ -112,7 +112,7 @@ def tabulate_business(data):
 
 def tabulate_yelp_user(data):
     try:
-        conn = psycopg2.connect(CONFIG)
+        con = psycopg2.connect(CONFIG)
         cur = conn.cursor()
         args_str = ','.join(cur.mogrify(
             "(%s,%s,%s,%s,%s,%s)", x).decode("utf-8") for x in data)
