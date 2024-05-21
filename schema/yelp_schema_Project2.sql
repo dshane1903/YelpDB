@@ -11,7 +11,15 @@ DROP TYPE IF EXISTS hours;
 DROP TYPE IF EXISTS attributes;
 
 -- Create Composite Types
-
+CREATE TYPE hours AS (
+    monday VARCHAR(128),
+    tuesday VARCHAR(128),
+    wednesday VARCHAR(128),
+    thursday VARCHAR(128),
+    friday VARCHAR(128),
+    saturday VARCHAR(128),
+    sunday VARCHAR(128)
+);
 
 CREATE TYPE attributes AS (
     to_go BOOLEAN,
