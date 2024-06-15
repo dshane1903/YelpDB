@@ -9,7 +9,6 @@ Put Yelp database related things here only.
 Note: Cannot use ORMs in sqlalchemy.
 """
 
-
 # sqlalchemy config
 #DATABSEURI = "postgresql://jn2717:amaurylovesalex@34.74.165.156/proj1part2"
 DATABASEURI = "postgresql://postgres:amaurylovesalex@127.0.0.1"
@@ -19,7 +18,9 @@ DATABASEURI = "postgresql://postgres:amaurylovesalex@127.0.0.1"
 #          dbname=proj1part2 \ 
 #          use=jn2717 \
 #          password=amaurylovesalex"
-
+CONGIF = "dbname=postgres \
+          user=postgres \
+          password=amaurylovesalex"
        
 
 import os
