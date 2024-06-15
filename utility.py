@@ -191,6 +191,13 @@ def get_media():
                 row = json.loads(line)
                 
             blob = None 
+            
+            insert = [
+                row['photo_id'],
+                row['business_id'],
+                blob,
+                row['caption']
+            ]
 
         
 
