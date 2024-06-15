@@ -184,4 +184,12 @@ def get_checkins():
 
 
 def get_media():
+        file_dir = os.path.join(BASE_DIR, 'photo.json')
+
+
+
+
+
+
+
     
