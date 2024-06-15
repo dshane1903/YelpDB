@@ -1,5 +1,8 @@
 """
-@author: Shane Duncan, Amaury Sudrie
+SQLAlchemy congifuration, Psycopg2 configuration, SQL Command tasks
+Created Sept 14 2023
+@author: Shane Duncan
+@TA: Amaury Sudrie
 
 Put Yelp database related things here only.
 
