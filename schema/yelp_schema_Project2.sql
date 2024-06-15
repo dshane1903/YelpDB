@@ -7,6 +7,7 @@ DROP TABLE IF EXISTS Media CASCADE;
 DROP TABLE IF EXISTS Friend_Of CASCADE;
 
 -- Drop Composite Types everytime you refresh server
+DROP TYPE IF EXISTS hours;
 
 
 -- Create Composite Types
