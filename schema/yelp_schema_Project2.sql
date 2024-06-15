@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS Friend_Of CASCADE;
 
 -- Drop Composite Types everytime you refresh server
 DROP TYPE IF EXISTS hours;
-
+DROP TYPE IF EXISTS attributes;
 
 -- Create Composite Types
 CREATE TYPE hours AS (
