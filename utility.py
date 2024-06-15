@@ -1,6 +1,8 @@
 """
-Created on 3 Nov 2019
+get_business, get_yelp_user, get_reviews, get_tips, get_checkins, get_media
+Created Sept 14 2023
 @author: Shane Duncan
+@TA: Amaury Sudrie
 
 Utility functions to extract data from the json files
 """
