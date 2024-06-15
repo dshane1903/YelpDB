@@ -17,18 +17,7 @@ from sqlalchemy.pool import NullPool
 from sqlalchemy import text
 from sqlalchemy import exc
 
-# sqlalchemy config
-#DATABASEURI = "postgresql://jn2717:amaurylovesalex@34.74.165.156/proj1part2"
-DATABASEURI = "postgresql://postgres:amaurylovesalex@127.0.0.1"
 
-# psycopg2 config
-#CONFIG = "host=34.74.165.156 \
-#          dbname=proj1part2 \
-#          user=jn2717 \
-#          password=amaurylovesalex"
-CONFIG = "dbname=postgres \
-          user=postgres \
-          password=amaurylovesalex"
 
 
 def create_schema():
