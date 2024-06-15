@@ -15,6 +15,12 @@ Note: Cannot use ORMs in sqlalchemy.
 DATABASEURI = "postgresql://postgres:amaurylovesalex@127.0.0.1"
 
 #psycopg2 config
+#CONFIG = "host=34.74.165.156 \
+#          dbname=proj1part2 \ 
+#          use=jn2717 \
+#          password=amaurylovesalex"
+
+       
 
 import os
 import psycopg2
