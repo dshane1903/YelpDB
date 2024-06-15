@@ -185,6 +185,12 @@ def get_checkins():
 
 def get_media():
         file_dir = os.path.join(BASE_DIR, 'photo.json')
+        with open(file_dir, 'r') as f:
+            data = []
+            for line in f:
+                row = json.loads(line)
+                
+        
 
 
 
