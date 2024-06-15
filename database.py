@@ -1,5 +1,4 @@
 """
-Created on 3 Nov 2019
 @author: Shane Duncan, Amaury Sudrie
 
 Put Yelp database related things here only.
