@@ -184,20 +184,4 @@ def get_checkins():
 
 
 def get_media():
-    file_dir = os.path.join(BASE_DIR, 'photo.json')
-    with open(file_dir, 'r') as f:
-        data = []
-        for line in f:
-            row = json.loads(line)
-
-            # TODO: get blob data
-            blob = None
-
-            insert = [
-                row['photo_id'],
-                row['business_id'],
-                blob,
-                row['caption']
-            ]
-            data.append(insert)
-        return data
+    
