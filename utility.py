@@ -190,6 +190,8 @@ def get_media():
             for line in f:
                 row = json.loads(line)
                 
+            blob = None 
+
         
 
 
